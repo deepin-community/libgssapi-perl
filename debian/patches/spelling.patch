@@ -1,0 +1,27 @@
+Description: spelling errors
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=127011
+Last-Update: 2018-08-31
+
+--- a/GSSAPI/OID.pm
++++ b/GSSAPI/OID.pm
+@@ -94,7 +94,7 @@
+ for 'mechanisisms' -- the particular protocol and version being
+ used -- and for the encodings used to represent names.  In many
+ cases you can request the default mechanism or encoding for the
+-implmentation by using GSS_C_NO_OID.  Check the description of the
++implementation by using GSS_C_NO_OID.  Check the description of the
+ routine in rfc2743 if you're not sure.
+ 
+ =head1 AUTHOR
+--- a/GSSAPI/Status.pm
++++ b/GSSAPI/Status.pm
+@@ -98,7 +98,7 @@
+ 
+ =head1 BUGS
+ 
+-The base objects are currently implmented as a blessed C structure
++The base objects are currently implemented as a blessed C structure
+ containing the major and minor status codes.  It should probably
+ be a blessed array or hash instead, thereby cutting down on the
+ amount of C code involved and making it more flexible.
